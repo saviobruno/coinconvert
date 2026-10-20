@@ -71,13 +71,6 @@ Depois, abra o `index.html` com um duplo clique ou use uma extensão como o **Li
 
 5. A taxa retornada é multiplicada pelo valor e o resultado é exibido formatado, junto com a data da cotação.
 
-## 🚀 Possíveis melhorias
-
-- [ ] Adicionar mais moedas
-- [ ] Criar um modo escuro
-- [ ] Mostrar um histórico das últimas conversões
-- [ ] Exibir um gráfico da variação da cotação
-- [ ] Transformar em PWA para uso offline
 
 ## 👨‍💻 Autor
 
