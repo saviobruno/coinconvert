@@ -2,10 +2,10 @@
 
 Conversor de moedas simples e rápido, que usa cotações de referência atualizadas para converter valores entre Real, Dólar, Euro e Libra.
 
-<!-- Adicione um print do projeto aqui: -->
-<!-- ![Preview do CoinConvert](preview.png) -->
 
-🔗 **Demo:** [SEU_LINK_DO_GITHUB_PAGES](SEU_LINK_DO_GITHUB_PAGES)
+<img width="1915" height="895" alt="image" src="https://github.com/user-attachments/assets/be56ccef-cddc-43e7-acf7-bf720364edc2" />
+
+🔗 **Demo:** https://saviobruno.github.io/coinconvert/
 
 ---
 
