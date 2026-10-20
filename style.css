@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background: #f5f3ff;
+    color: #1f2937;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+    padding: 30px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 12px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: #ede9fe;
+    color: #6d28d9;
+    font-size: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 27px;
+}
+
+header p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 9px;
+    background: white;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #a78bfa;
+    border-color: #7c3aed;
+}
+
+button {
+    padding: 13px;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#inverter {
+    margin: 5px 0;
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+#converter {
+    margin-top: 10px;
+    background: #6d28d9;
+    color: white;
+}
+
+#converter:hover {
+    background: #5b21b6;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+#resultado {
+    margin-top: 24px;
+    padding: 18px;
+    background: #f5f3ff;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+}
+
+#resultado p {
+    color: #6b21a8;
+    font-size: 14px;
+}
+
+#resultado h2 {
+    color: #4c1d95;
+    font-size: 27px;
+}
+
+#dataCotacao {
+    color: #6b7280;
+}
+
+#mensagem {
+    margin-top: 12px;
+    color: #b91c1c;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 25px;
+    color: #9ca3af;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 22px;
+    }
+}
